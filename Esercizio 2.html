@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onmouseover="green()" onmouseout="green2()" id="primo" style="background-color: white; width: 20px; height: 20px; padding: 40px;
+     border: 3px solid black;"></div> <br/>
+    <div onmouseover="red()" onmouseout="red2()" id="secondo" style="background-color: black; width: 20px; height: 20px; padding: 40px;
+     border: 3px solid black;"></div>
+
+    <script>
+        function green() {
+    document.getElementById("primo").style.background = "green"}
+        function red() {
+    document.getElementById("secondo").style.background = "red"}
+        function green2() {
+    document.getElementById("primo").style.background = "white"}
+        function red2() {
+    document.getElementById("secondo").style.background = "black"}
+    </script>
+</body>
+</html>
